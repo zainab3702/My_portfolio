@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
-/* body {
+.bg {
+  margin: 0;
+  padding:10;
+  background: linear-gradient(to right, black, #b3890b, black);
+}
+ 
+body{
   background-color: black;
-} */
+}
+
+.active-link:hover{
+  /* color: rgb(190, 171, 26); */
+  background-color: #b3890b;
+  height: 20px;
+}
